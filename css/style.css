@@ -218,13 +218,30 @@ span {
   .col-3 ul.tab-links {
     margin-right: 30px;
   }
+  .col-3 p {
+    font-size: 16px;
+  }
   .card {
     height: auto;
   }
   .card-img-top {
     height: 19.5rem;
   }
+  .card-text {
+    font-size: 32px;
+  }
   .main {
     margin-top: 20%;
+  }
+  .footer {
+    display: block;
+    margin-bottom: auto;
+  }
+  .footer__header {
+    display: flex;
+    justify-content: center;
+  }
+  .footer ul {
+    padding-left: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */

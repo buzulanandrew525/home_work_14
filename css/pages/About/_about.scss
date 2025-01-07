@@ -107,6 +107,9 @@
         ul.tab-links {
             margin-right: 30px;
         }
+        p {
+            font-size: 16px;
+        }
     }
 
     .card {
@@ -114,9 +117,24 @@
         &-img-top {
             height: 19.5rem;
         }
+        &-text {
+            font-size: 32px;
+        }
     }
 
     .main {
         margin-top: 20%;
+    }
+
+    .footer {
+        display: block;
+        margin-bottom: auto;
+        &__header {
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            padding-left: 4rem;
+        }
     }
 }
